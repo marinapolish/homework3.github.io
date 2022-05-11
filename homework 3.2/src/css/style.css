@@ -1,0 +1,160 @@
+.start {
+    padding: 20px 0 20px 0;
+    box-sizing:border-box;
+    background-color: #c4c4c4;
+    width: 100%;
+}
+.one-line {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.flag-line{
+    height: 210px;
+    width: 210px;
+    background: url('../img/line.png'),linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 75% auto, 100% 100%;
+    background-position: center, 0 0; 
+
+}
+ .circle-line {
+    height: 210px;
+    width: 210px;
+    background: url('../img/line.png'),
+    linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    border-radius: 50%;
+    
+    background-size: 75% auto, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 85%, 0 0;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.box {
+    margin-left: 100px;
+    border: 2px solid #fff;
+    background-color: #fff;
+
+}
+.two_line {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.simple-flag {
+    height: 210px;
+    width: 210px;
+    background: linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+
+}
+.simple_sircle {
+    height: 210px;
+    width: 210px;
+    background: 
+    linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    border-radius: 50%;
+}
+
+.third-line{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.petcube-flag {
+    height: 210px;
+    width: 210px;
+    background: url('../img/Group.png'),
+    linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 70% auto, 100% 100%;
+    background-position: 0 50%, 0 0;
+}
+.petcube-cirle {
+    height: 210px;
+    width: 210px;
+    background: url('../img/Group.png'), linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-size: 70% auto, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 50%, 0 0;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.fourth-line {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.spark-flag {
+    height: 210px;
+    width: 210px;
+    background: url('../img/Background.png'),
+    linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 65% auto, 100% 100%;
+    background-position: right bottom, 0 0;
+}
+.spark-circle {
+    height: 210px;
+    width: 210px;
+    background: url('../img/Background.png'), linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-size: 65% auto, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 50%, 0 0;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.five-line {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.diia-flag {
+    height: 210px;
+    width: 210px;
+    background: url('../img/Vector-3.png'), linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 65% auto, 100% 100%;
+    background-position: center, 0 0;
+}
+.diia-circle {
+    height: 210px;
+    width: 210px;
+    background: url('../img/Vector-3.png'), linear-gradient(0deg, rgba(253, 187, 45, 1) 50%, rgba(33, 55, 252, 1) 50%);
+    background-size: 70% auto, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, 0 0;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.diia-black {
+    height: 210px;
+    width: 210px;
+    margin-left: 50px;
+    background: url('../img/Vector-3.png'), url('../img/Flag.png'), black;
+    background-size: 70% auto, 18% 13%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center 40%, 50% 80%, 0 0;    
+}
+.diia-black-flag {
+    height: 210px;
+    width: 210px;
+    margin-left: 50px;
+    background: url('../img/Vector-3.png'), url('../img/Flag.png'), black;
+    background-size: 70% auto, 18% 13%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center 40%, 7% 7%, 0 0;
+}
+.diia-black-flags {
+    height: 210px;
+    width: 210px;
+    margin-left: 50px;
+    background: url('../img/Vector-3.png'), url('../img/Flag.png'), url('../img/Flag.png'), black;
+    background-size: 70% auto, 18% 13%, 18% 13%, 100% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: center 40%, 7% 7%, 93% 7%, 0 0;
+
+}
+
+
